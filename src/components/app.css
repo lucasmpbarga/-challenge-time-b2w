@@ -9,6 +9,7 @@
     border: 5px solid yellow;
     border-radius: 3px;
     height: 468px;
+    margin-top: 50px;
 }
 
 .header{
@@ -31,7 +32,7 @@
     color: yellow;
 }
 
-.btn-sw{
+.btn-next{
     background-color: #4CAF50;
     border: solid;
     color: yellow;
@@ -44,7 +45,7 @@
     cursor: pointer;
     border-radius: 25px;
     position: absolute;
-    left: 35%;
+    left: 40%;
 }
 
 .d-btn-sw{
@@ -86,67 +87,6 @@
 
 /* SW */
 
-.d-logo{
-    position: absolute;
-    width: 250px;
-    height: 140px;
-    margin-left: 375px;
-}
-
-.logo{
-    position: absolute;
-    width: 250px;
-    top: -20px;
-}
-
-.upload{
-    height: 125px;
-}
-
-.form-upload{
-    width: 180px;
-    height: 125px;
-    left: 44%;
-    position: absolute;
-
-}
-
-.lb-form-upload{
-    position: absolute;
-    font-size: 14px;
-    text-transform: uppercase;
-    top: 5%;
-}
-
-.btn-choose-file{
-    position: absolute;
-    top: 21%;
-    left: 9%;
-}
-
-.btn-upload-file{
-    position: absolute;
-    top: 59%;
-    left: 18%;
-}
-
-.input-file{
-    display: none;
-}
-
-.hr-up{
-    position: absolute;
-    width: 1016px;
-    top: 150px;
-}
-
-.info{
-    margin-bottom: 25px;
-}
-
-.sumir{
-    display: none;
-}
 
 
 /* Buttons Styles */

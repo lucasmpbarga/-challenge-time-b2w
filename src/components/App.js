@@ -41,7 +41,6 @@ class App extends React.Component {
                 <div className="quests">
                     {
                         this.state.getData.map((data, index) => {
-                            console.log(data)
                             if(index == this.state.questNumber){
                                 return(
                                     <div className="infos">
@@ -58,7 +57,7 @@ class App extends React.Component {
                         })
                     }
                     <div className="d-btn-sw">
-                        <button className="btn-sw" onClick={() => this.randomQuest()}>StarWarsApi</button>
+                        <button className="btn-next" onClick={() => this.randomQuest()}>NEXT</button>
                     </div>
                 </div>
                 
