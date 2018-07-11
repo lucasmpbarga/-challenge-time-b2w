@@ -41,11 +41,17 @@ class App extends React.Component {
                 <div className="quests">
                     {
                         this.state.getData.map((data, index) => {
-                            console.log(this.state)
+                            console.log(data)
                             if(index == this.state.questNumber){
                                 return(
-                                    <div className="">
-                                        <h1>{data.name}</h1>
+                                    <div className="infos">
+                                        <h2 className="p-name">{data.name}</h2>
+                                        <div className="p-infos">
+                                            <h4>Population: {data.population}</h4>
+                                            <h4>Climate: {data.climate}</h4>
+                                            <h4>Terrain: {data.terrain}</h4>
+                                        </div>
+                                        <label className="lb-films">Featured in {data.films.length} Films</label>
                                     </div>
                                 )
                             }

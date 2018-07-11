@@ -8,7 +8,7 @@
     background: #FFFFFF;
     border: 5px solid yellow;
     border-radius: 3px;
-    height: 600px;
+    height: 468px;
 }
 
 .header{
@@ -26,7 +26,7 @@
     position: absolute;
     border-radius: 3px;
     width: 490px;
-    height: 447px;
+    height: 315px;
     background: black;
     color: yellow;
 }
@@ -49,10 +49,41 @@
 
 .d-btn-sw{
     bottom: 0%;
-    width: 490px;
     height: 60px;
     position: absolute;
+    left: 0%;
+    right: 0%;
 }
+
+.infos{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 16%;
+    top: 0%;
+}
+
+.p-name{
+    text-align: center;
+}
+
+.p-infos{
+    position: absolute;
+    left: 15%;
+}
+
+.lb-films{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    bottom: 0%;
+}
+
 /* SW */
 
 .d-logo{
