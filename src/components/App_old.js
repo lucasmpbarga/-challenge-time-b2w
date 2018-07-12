@@ -34,34 +34,36 @@ class App extends React.Component {
     
     render() {
         return (
-            <div className="">
-                <div class="card e-card" >
-                    <img class="header-logo logo" src={require('./drive/images/header_sw.png')} />       
-                
-                    <div class="card-body ">
+            <div className="container">
+                <div className="header">
+                <img className="header-logo" src={require('./drive/images/header_sw.png')} />       
+                </div>
+                <div className="quests">
                     {
                         this.state.getData.map((data, index) => {
                             if(index == this.state.questNumber){
                                 return(
                                     <div className="infos">
-                                        <h2 className="center-name">{data.name}</h2>
-                                        <div className="">
+                                        <h2 className="p-name">{data.name}</h2>
+                                        <div className="p-infos">
                                             <h4>Population: {data.population}</h4>
                                             <h4>Climate: {data.climate}</h4>
                                             <h4>Terrain: {data.terrain}</h4>
                                         </div>
-                                        <h6 className="center-name f-films">Featured in {data.films.length} Films</h6>
-                                        <div className="d-btn-next">
-                                            <button type="button" class="btn btn-success btn-next" onClick={() => this.randomQuest()}>NEXT</button>
-                                        </div>
+                                        <label className="lb-films">Featured in {data.films.length} Films</label>
                                     </div>
                                 )
                             }
                         })
-                    }    
+                    }
+                    <div className="d-btn-sw">
+                        <button className="btn-next" onClick={() => this.randomQuest()}>NEXT</button>
                     </div>
                 </div>
-          </div>
+                
+                
+                
+            </div>
         );
     }
 }
