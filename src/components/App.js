@@ -46,9 +46,9 @@ class App extends React.Component {
                                     <div className="infos">
                                         <h2 className="center-name">{data.name}</h2>
                                         <div className="">
-                                            <h4>Population: {data.population}</h4>
-                                            <h4>Climate: {data.climate}</h4>
-                                            <h4>Terrain: {data.terrain}</h4>
+                                            <h5>Population: {data.population}</h5>
+                                            <h5>Climate: {data.climate}</h5>
+                                            <h5>Terrain: {data.terrain}</h5>
                                         </div>
                                         <h6 className="center-name f-films">Featured in {data.films.length} Films</h6>
                                         <div className="d-btn-next">
