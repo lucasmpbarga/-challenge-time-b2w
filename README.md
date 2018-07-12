@@ -1,4 +1,4 @@
-# challenge-time-b2w
+# challenge-time
 <h4>Hospedado https://challenge-time.herokuapp.com/</h4>
 <p>
   <strong>Proposta:</strong> O jogo consiste em, dado um planeta aleatório da franquia, perguntar como seria o clima, o terreno e em quantos filmes da franquia ele apareceu.
